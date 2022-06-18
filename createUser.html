@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Plataforma Educativa</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/styles/createUser.css">
+    </head>
+    <body>
+        <div class="cuadroBlanco">
+            <section class="buttonBack">
+                <a href="/homeAdmin.html">
+                    <button class="backMenu" type="button">Regresar al Menu</button>    
+                </a>
+            </section>
+            <section class="buttonSend">
+                <button class="sendButton" type="button" onclick='createUser()'>Agregar Alumno</button>
+            </section>
+            <form action="" class="formulario">
+                <h4>NOMBRE Y APELLIDO</h4>
+                <input   type="text" class="nombre" placeholder="NOMBRE del Alumno" required>
+                <h4>DNI</h4>
+                <input   type="text" class="dni" placeholder="DNI del Alumno" required>
+                <h4>CURSO</h4>
+                <input   type="text" class="curso" placeholder="CURSO del Alumno" required>
+                <h4>TELEFONO</h4>
+                <input   type="text" class="telefono" placeholder="TELEFONO del Alumno/Padres" required>
+                <h4>CORREO</h4>
+                <input   type="text" class="correo" placeholder="CORREO del Alumno" required>
+                <h4>USUARIO</h4>
+                <input   type="text" class="usuario" placeholder="USUARIO del Alumno" required>
+                <h4>CONTRASEÑA</h4>
+                <input   type="text" class="contraseña" placeholder="Contraseña de la cuenta de usuario" required>
+            </form>
+        </div>
+        <script src="/js/index.js"></script>
+    </body>
+</html>
